@@ -1,0 +1,71 @@
+
+body{
+  background-color: rgb(25, 25, 25);
+  color:white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.head{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.move-icon{
+  height:70px;
+}
+.btn2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.btn1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+}
+.move-button{
+  background-color: transparent;
+  border:3px solid white;
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+
+  cursor: pointer;
+}
+
+.css-Result{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+
+}
+.css-MoveDisplay{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+  
+  
+}
+.css-score{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.css-Reset{
+  font-size: 20px;
+  font-weight:530;
+  
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.css-Reset:hover{
+  background-color: silver;
+}
