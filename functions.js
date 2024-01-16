@@ -108,6 +108,7 @@ function Rock(){
   }
   ans(Result);
   localStorage.setItem('score',JSON.stringify(score));
+  //stringify is used to convert them into strings because local storage only stores in strings.
   RS(Result);
   MD(playerMove, Comp);
   UpdateScore();
